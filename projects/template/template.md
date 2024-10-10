@@ -6,7 +6,7 @@
 
 **Repo Link:** [Repo Link]
 
-**Additional Resources:** [blog posts, twitter links, etc]
+**Additional Resources:** [blog posts, twitter links, slides, etc]
 
 ---
 ## Problem
