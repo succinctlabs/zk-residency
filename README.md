@@ -9,3 +9,4 @@ Projects from the [Succinct ZK Residency](https://blog.succinct.xyz/zk-residency
 | Name                               | Description              | Author(s)                                           |
 |------------------------------------|--------------------------|-----------------------------------------------------|
 | [template](./projects/template/template.md) | Template project to fork | [lsquaredleland](https://github.com/lsquaredleland) |
+| [Cali-Creds](./projects/cali-creds/cali-creds.md) | Using California's Mobile Driver's License as On-Chain Identity | [pjol](https://github.com/pjol) |
