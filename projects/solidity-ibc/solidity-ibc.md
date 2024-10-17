@@ -23,7 +23,7 @@ We use SP1 to implement a generic and cheap IBC tendermint light client in Solid
 
 | **Program** | **Cycle Count** |
 |:---:|:---:|
-| `update_client` | 7,359,764 |
-| `uc_and_membership` | 7,864,196 |
-| `membership` | 506,363 |
-| `misbehavior` | 1M - 10M |
+| `update_client` | ~7M |
+| `uc_and_membership` | ~8M |
+| `membership` | ~500k |
+| `misbehavior` | ~7M |
