@@ -1,6 +1,6 @@
 # Solidity IBC by IBC Team
 
-**Summary:** Enable peer-to-peer, trustless communication between Ethereum and any Cosmos chain using IBC.
+**Summary:** Peer-to-peer, trustless, light client based communication between Ethereum and any Cosmos chain using IBC.
 
 **Team Members:** Serdar Turkmenafsar ([github/srdtrk](https://github.com/srdtrk), [Twitter](https://x.com/srdtrk)), Gjermund Garaba ([github/gjermundgaraba](https://github.com/gjermundgaraba), [Twitter](https://x.com/GjermundGaraba))
 
