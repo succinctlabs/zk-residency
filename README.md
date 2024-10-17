@@ -12,5 +12,8 @@ Projects from the [Succinct ZK Residency](https://blog.succinct.xyz/zk-residency
 | [solidity-ibc](./projects/solidity-ibc/solidity-ibc.md) | Peer-to-peer, trustless, light client based communication between Ethereum and any Cosmos chain using IBC. | [srdtrk](https://github.com/srdtrk) & [gjermundgaraba](https://github.com/gjermundgaraba)  |
 | [Cali-Creds](./projects/cali-creds/cali-creds.md) | Using California's Mobile Driver's License as On-Chain Identity | [pjol](https://github.com/pjol) |
 | [Sorella Log Verifier](./projects/sorella-log-verifier/sorella-log-verifier.md) | Non-excluding verification of past contract events. | [Philogy](https://github.com/philogy/)
- | [ZK Auction](./projects/zk-auction/zk-auction.md) | Proof of concept to infinitely scale onchain auctions by use of a ZK-powered architecture | [zkzoomer](https://github.com/zkzoomer) |
- | [SP1 EOF](./projects/eof/eof.md) | SP1 performance benchmarks for EVM Object Format (EOF) | [caireoth](https://github.com/cairoeth) |
+| [SP1 EOF](./projects/eof/eof.md) | SP1 performance benchmarks for EVM Object Format (EOF) | [caireoth](https://github.com/cairoeth) |
+| [ZK Auction](./projects/zk-auction/zk-auction.md) | Proof of concept to infinitely scale onchain auctions by use of a ZK-powered architecture | [zkzoomer](https://github.com/zkzoomer) |
+| [OpenPassport](./projects/openpassport/openpassport.md) | Zero-knowledge passport proofs | [Rémi](https://github.com/remicolin) & [Florent](https://github.com/0xturboblitz) |
+| [zkpassport](./projects/zkpassport/zkpassport.md) | Private and unforgeable proof of identity using government-issued passports and ID cards. | [Michael Elliot](https://github.com/michaelelliot), [Théo Madzou](https://github.com/madztheo) |
+
