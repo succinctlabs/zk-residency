@@ -1,6 +1,6 @@
 # Sorella Log Verifier by Philogy from Sorella
 
-**Summary:** Succicnt verifier of past contract events with proof of non-exclusion.
+**Summary:** Non-excluding verification of past contract events.
 
 **Team Members:** Philogy ([GitHub](github.com/Philogy), [$\mathbb{X}$](x.com/real_philogy))
 
