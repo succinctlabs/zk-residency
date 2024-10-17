@@ -13,3 +13,4 @@ Projects from the [Succinct ZK Residency](https://blog.succinct.xyz/zk-residency
 | [Cali-Creds](./projects/cali-creds/cali-creds.md) | Using California's Mobile Driver's License as On-Chain Identity | [pjol](https://github.com/pjol) |
 | [Sorella Log Verifier](./projects/sorella-log-verifier/sorella-log-verifier.md) | Non-excluding verification of past contract events. | [Philogy](https://github.com/philogy/)
  | [ZK Auction](./projects/zk-auction/zk-auction.md) | Proof of concept to infinitely scale onchain auctions by use of a ZK-powered architecture | [zkzoomer](https://github.com/zkzoomer) |
+| [zkVM Benchmarks](./projects/zkvm-benchmarks) | A not so succinct comparison (_with numbers_) between zkVMs and their WASM compatibility (Q4 2024 edition) | [kautukkundan](https://github.com/kautukkundan), [aashutoshrathi](https://github.com/aashutoshrathi), [0xRampey](https://github.com/0xRampey) |
