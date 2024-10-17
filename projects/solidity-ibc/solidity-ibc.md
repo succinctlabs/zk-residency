@@ -2,7 +2,7 @@
 
 **Summary:** Peer-to-peer, trustless, light client based communication between Ethereum and any Cosmos chain using IBC.
 
-**Team Members:** Serdar Turkmenafsar ([github/srdtrk](https://github.com/srdtrk), [Twitter](https://x.com/srdtrk)), Gjermund Garaba ([github/gjermundgaraba](https://github.com/gjermundgaraba), [Twitter](https://x.com/GjermundGaraba))
+**Team Members:** Serdar Turkmenafsar ([Github](https://github.com/srdtrk), [Twitter](https://x.com/srdtrk)), Gjermund Garaba ([Github](https://github.com/gjermundgaraba), [Twitter](https://x.com/GjermundGaraba))
 
 **Repo Link:** [sp1-ics07-tendermint](https://github.com/srdtrk/sp1-ics07-tendermint), [solidity-ibc-eureka](https://github.com/srdtrk/solidity-ibc-eureka)
 

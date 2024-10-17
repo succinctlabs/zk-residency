@@ -8,5 +8,5 @@ Projects from the [Succinct ZK Residency](https://blog.succinct.xyz/zk-residency
 
 | Name                               | Description              | Author(s)                                           |
 |------------------------------------|--------------------------|-----------------------------------------------------|
-| [solidity-ibc](./projects/solidity-ibc/solidity-ibc.md) | Peer-to-peer, trustless, light client based communication between Ethereum and any Cosmos chain using IBC. | [lsquaredleland](https://github.com/lsquaredleland) |
+| [solidity-ibc](./projects/solidity-ibc/solidity-ibc.md) | Peer-to-peer, trustless, light client based communication between Ethereum and any Cosmos chain using IBC. | [srdtrk](https://github.com/srdtrk) & [gjermundgaraba](https://github.com/gjermundgaraba)  |
 | [template](./projects/template/template.md) | Template project to fork | [lsquaredleland](https://github.com/lsquaredleland) |
