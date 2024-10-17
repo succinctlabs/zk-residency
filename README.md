@@ -10,3 +10,4 @@ Projects from the [Succinct ZK Residency](https://blog.succinct.xyz/zk-residency
 |------------------------------------|--------------------------|-----------------------------------------------------|
 | [template](./projects/template/template.md) | Template project to fork | [lsquaredleland](https://github.com/lsquaredleland) |
 | [Cali-Creds](./projects/cali-creds/cali-creds.md) | Using California's Mobile Driver's License as On-Chain Identity | [pjol](https://github.com/pjol) |
+| [Celestia-Sync](./projects/celestia-sync/README.md) | Rapid synchronization of a celestia consensus node | [c-node](https://github.com/S1nus) |
