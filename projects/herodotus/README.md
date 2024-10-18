@@ -27,7 +27,9 @@ We implemented in SP1 the following primitives:
 
 ## Performance Metrics
 
-|:---:|:---:|
-| `Header verification` | ~800k |
-| `State proof` | ~90k |
-| `Beacon header` | ~100k |
+| **Data point** | **Cycle Count** |
+|:----------------:|:---------------:|
+|        `Header verification`         | ~800k |
+|       `State proof`         | ~90k |
+|       `Beacon header        | ~100k |
+
