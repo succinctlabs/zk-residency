@@ -34,5 +34,5 @@ We implemented in SP1 the following primitives:
 |:----------------:|:---------------:|
 |        `Header verification`         | ~800k |
 |       `State proof`         | ~90k |
-|       `Beacon header        | ~100k |
+|       `Beacon header`        | ~100k |
 
