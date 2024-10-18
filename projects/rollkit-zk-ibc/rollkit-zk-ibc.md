@@ -11,9 +11,9 @@
 ---
 ## Problem
 
-Celestia does not have a VM to minimize on-chain state and can only send and receive TIA , its native asset, via IBC. This means that native rollups of Celestia cannot form a trust-minimized bridge to it. By adding a ZK verifier for rollups, Celestia plans to enable rollups to form trust-minimized bridges to it. This means each rollup becomes a Celestia ZK Account.
+Celestia does not have a VM to minimize on-chain state and can only send and receive TIA, its native asset, via IBC. This means that native rollups of Celestia cannot form a trust-minimized bridge to it. Bridging TIA to native rollups requires going through intermediary chains with validator sets that can then IBC to Celestia. By adding a ZK verifier for rollups, Celestia plans to enable rollups to form trust-minimized bridges to it directly. This means each rollup becomes a Celestia ZK Account and eliminates the need for any intermediaries.
 
-Rollkit is a native sovereign rollup stack built by Celestia Labs, and does not come with an enshrined bridge. Forming a bridge to another chain currently requires relying on committee-based bridges. We want the ability to establish a trust-minimized bridge to another chain, starting with Celestia via a new IBC client that verifies a rollup’s state transition function which comprises of its fork choice rule, an execution proof, and a blob inclusion proof.
+Rollkit is a native sovereign rollup stack built by Celestia Labs, and chains built with it do not come with an enshrined bridge. Forming a bridge to another chain currently requires relying on committee-based bridges. We want the ability to establish a trust-minimized bridge to another chain, starting with Celestia via a new IBC client that verifies a rollup’s state transition function which comprises of its fork choice rule, an execution proof, and a blob inclusion proof.
 
 ## Solution
 
