@@ -25,6 +25,9 @@ We implemented in SP1 the following primitives:
 - Consensus layer header verification
   On top of that we develop an SDK that allows to fetch preauthenticated data and use it from the "guest" programs.
 
+![Diagram]([http://url/to/img.png](https://github.com/marcellobardus/zk-residency/blob/main/.github/herodotus_diagram.png?raw=true))
+
+
 ## Performance Metrics
 
 | **Data point** | **Cycle Count** |
