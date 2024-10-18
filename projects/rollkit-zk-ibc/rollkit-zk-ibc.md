@@ -18,6 +18,8 @@ Rollkit is the stack for Celestia’s native ecosystem of applications which do 
 
 ## Solution
 
+![e2e flow](./Rollkit-to-Celestia.jpg)
+
 We've come up with a PoC to figure out all the necessary components needed to establish a trust-minimized bridge via ZK IBC from a vanilla EVM sovereign rollup built with Rollkit to Celestia's ZK Accounts. This involves the following:
 
 - Generating a proof of the fork choice rule of the rollup chain to get the canonical list of transactions: this can just be proof of verifying a single sequencer's signature to start with or something more elaborate later on. This just requires an RPC of the rollup chain to retrieve a header from, and later an SP1 program that goes through the DA layer to prove the fork choice rule over blobs of the rollup's namespace.
