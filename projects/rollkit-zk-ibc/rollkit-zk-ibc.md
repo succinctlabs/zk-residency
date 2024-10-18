@@ -19,11 +19,11 @@ Rollkit is a native sovereign rollup stack built by Celestia Labs, and does not 
 
 We've come up with a PoC to figure out all the necessary components needed to establish a trust-minimized bridge via ZK IBC from a vanilla EVM sovereign rollup built with Rollkit to Celestia's ZK Accounts. This involves the following:
 
-- Generating a proof of the fork choice rule of the rollup chain to get the canonical list of transactions: this can just be proof of verifying a single sequencer's signature to start with or something more elaborate later on
+- Generating a proof of the fork choice rule of the rollup chain to get the canonical list of transactions: this can just be proof of verifying a single sequencer's signature to start with or something more elaborate later on. This just requires an RPC of the rollup chain to retrieve a header from, and later an SP1 program that goes through the DA layer to prove the fork choice rule over blobs of the rollup's namespace.
 
-- Generating execution proofs for a range of EVM blocks (https://github.com/invocarnau/succint-zk-residency/blob/main/fep-type-1/block-aggregation/client/src/main.rs)
+- Generating execution proofs for a range of EVM blocks (https://github.com/invocarnau/succint-zk-residency/blob/main/fep-type-1/block-aggregation/client/src/main.rs). This just requires an ETH-JSON RPC with archival mode configured for the chain.
 
-- Generating [blob inclusion proofs](https://github.com/S1nus/sp1-blob-inclusion/blob/main/program/src/main.rs) for corresponding blobs that include transactions of the rollup
+- Generating [blob inclusion proofs](https://github.com/S1nus/sp1-blob-inclusion/blob/main/program/src/main.rs) for corresponding blobs that include transactions of the rollup. This requires access to a Celestia light node which allows retrieval of the [blob inclusion proofs](https://github.com/rollkit/go-da/blob/df792b19bab9d7064d3aeb20be6500cd9b151bc7/da.go#L23)
 
 These three proofs need to be verified in an SP1 program to generate an aggregated proof.
 
