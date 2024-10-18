@@ -9,11 +9,12 @@
 **Additional Resources:** [https://www.youtube.com/watch?v=HlIYAO_cjno&ab_channel=Celestia, https://forum.celestia.org/t/achieving-base-layer-functionality-escape-velocity-without-on-chain-smart-contracts-using-sovereign-zk-rollups/958/18, https://github.com/celestiaorg/celestia-app/tree/cal/zk-ibc-prototype/ibc/lightclients/groth16]
 
 ---
+
 ## Problem
 
-Celestia does not have a VM to minimize on-chain state and can only send and receive TIA, its native asset, via IBC. This means that native rollups of Celestia cannot form a trust-minimized bridge to it. Bridging TIA to native rollups requires going through intermediary chains with validator sets that can then IBC to Celestia. By adding a ZK verifier for rollups, Celestia plans to enable rollups to form trust-minimized bridges to it directly. This means each rollup becomes a Celestia ZK Account and eliminates the need for any intermediaries.
+Celestia does not have a VM to minimize on-chain state and can only send and receive TIA , its native asset, via IBC. This means that native rollups of Celestia cannot form a trust-minimized bridge to it. By adding a ZK verifier for rollups, Celestia plans to enable rollups to form trust-minimized bridges to it. This means each rollup becomes a Celestia ZK Account.
 
-Rollkit is a native sovereign rollup stack built by Celestia Labs, and chains built with it do not come with an enshrined bridge. Forming a bridge to another chain currently requires relying on committee-based bridges. We want the ability to establish a trust-minimized bridge to another chain, starting with Celestia via a new IBC client that verifies a rollup’s state transition function which comprises of its fork choice rule, an execution proof, and a blob inclusion proof.
+Rollkit is the stack for Celestia’s native ecosystem of applications which do not have an enshrined bridge. Forming a bridge to another chain currently requires relying on committee-based bridges. We want the ability to establish a trust-minimized bridge to another chain, starting with Celestia via a new IBC client that verifies a rollup’s state transition function which comprises of its fork choice rule, an optional ordering rule, an execution proof, and a blob inclusion proof.
 
 ## Solution
 
@@ -21,7 +22,7 @@ We've come up with a PoC to figure out all the necessary components needed to es
 
 - Generating a proof of the fork choice rule of the rollup chain to get the canonical list of transactions: this can just be proof of verifying a single sequencer's signature to start with or something more elaborate later on. This just requires an RPC of the rollup chain to retrieve a header from, and later an SP1 program that goes through the DA layer to prove the fork choice rule over blobs of the rollup's namespace.
 
-- Generating execution proofs for a range of EVM blocks (https://github.com/invocarnau/succint-zk-residency/blob/main/fep-type-1/block-aggregation/client/src/main.rs). This just requires an ETH-JSON RPC with archival mode configured for the chain.
+- [Generating execution proofs for a range of EVM blocks](https://github.com/invocarnau/succint-zk-residency/blob/main/fep-type-1/block-aggregation/client/src/main.rs). This just requires an ETH-JSON RPC with archival mode configured for the chain.
 
 - Generating [blob inclusion proofs](https://github.com/S1nus/sp1-blob-inclusion/blob/main/program/src/main.rs) for corresponding blobs that include transactions of the rollup. This requires access to a Celestia light node which allows retrieval of the [blob inclusion proofs](https://github.com/rollkit/go-da/blob/df792b19bab9d7064d3aeb20be6500cd9b151bc7/da.go#L23)
 
