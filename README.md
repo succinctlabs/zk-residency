@@ -18,3 +18,4 @@ Projects from the [Succinct ZK Residency](https://blog.succinct.xyz/zk-residency
 | [ZK Auction](./projects/zk-auction/zk-auction.md) | Proof of concept to infinitely scale onchain auctions by use of a ZK-powered architecture | [zkzoomer](https://github.com/zkzoomer) |
 | [OpenPassport](./projects/openpassport/openpassport.md) | Zero-knowledge passport proofs | [Rémi](https://github.com/remicolin) & [Florent](https://github.com/0xturboblitz) |
 | [zkpassport](./projects/zkpassport/zkpassport.md) | Private and unforgeable proof of identity using government-issued passports and ID cards. | [Michael Elliot](https://github.com/michaelelliot), [Théo Madzou](https://github.com/madztheo) |
+ | [Rift](./projects/rift/rift.md) | Trustless exchange between Bitcoin and Ethereum | [alpinevm](https://github.com/alpinevm) / [bruidbarrett](https://github.com/bruidbarrett) / [basedcrypto](https://github.com/sameesiddiqui) |
