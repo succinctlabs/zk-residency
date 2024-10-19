@@ -2,7 +2,7 @@
 
 **Summary:** [Run computation over provably historical onchain data from SP1]
 
-**Team Members:** [Pia] ([https://github.com/rkdud007], [https://x.com/piapark_eth]), [Bartosz] ([https://github.com/Okm165], [https://x.com/bartolomeo_diaz]), [Marcello] ([https://github.com/marcellobardus], [https://x.com/0xmarcello])
+**Team Members:** Pia ([GitHub](https://github.com/rkdud007), [Twitter](https://x.com/piapark_eth)), Bartosz ([GitHub](https://github.com/Okm165), [Twitter](https://x.com/bartolomeo_diaz)), Marcello ([GitHub](https://github.com/marcellobardus), [Twitter](https://x.com/0xmarcello))
 
 **Repo Link:** [https://github.com/HerodotusDev/hdp-sp1]
 
@@ -27,12 +27,12 @@ We implemented in SP1 the following primitives:
 
 ![Diagram](https://github.com/marcellobardus/zk-residency/blob/main/.github/herodotus_diagram.png?raw=true)
 
-
 ## Performance Metrics
 
-| **Data point** | **Cycle Count** |
-|:----------------:|:---------------:|
-|        `Header verification`         | ~800k |
-|       `State proof`         | ~90k |
-|       `Beacon header`        | ~100k |
-
+| Operation                      | Clock Cycle |
+| ------------------------------ | ----------- |
+| **Header Verification**        | 626,077     |
+| **MPT Verification**           | 78,851      |
+| **Beacon header Verification** | ~100k       |
+| **Bloom Filter (Set)**         | 17,656      |
+| **Bloom Filter (Check)**       | 20,119      |
